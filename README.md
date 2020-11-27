@@ -1,13 +1,13 @@
-#INSTALL
+## INSTALL
 
-## Install Packages
+### Install Packages
 To run the application, install all package dependencies, use this command.
 
 ```
 pip install -r requirements.txt
 ```
 
-## Create file start.sh
+### Create file start.sh
 Create file start.sh and copy all line in below to the file.
 
 ```
@@ -27,7 +27,7 @@ After that, give the file permission so we can execute to run app.
 sudo chmod a+x start.sh
 ```
 
-## Create migrate.sh
+### Create migrate.sh
 Create file ``migrate.sh`` in copy this command.
 
 ```
@@ -53,10 +53,7 @@ Now we can run migration use this command
 ./migrate.sh
 ```
 
-#Run Application
-
-## Run Migration
-
+## Run Application
 To run the application, run with command
 
 ```
